@@ -57,7 +57,7 @@
 #### （一）首页模块  
 ![首页界面](docs_images/Main_Interface.PNG)  
 ![拧紧详情](docs_images/Tighten_details.PNG)  
-![日志](docs_images/Log.PNG)  
+  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1．功能按钮  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;急停：红色按钮，用于在紧急情况下立即停止锁付工站的所有运行操作，保障设备和人员安全。  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;暂停：黄色按钮，用于暂时停止当前的锁付工作流程，可在需要时恢复继续运行。  
@@ -93,7 +93,8 @@
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;电批数据展示：  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1.示电批的扭力（单位 Kgf）、转速（单位 r/min）、全速（单位 r/min）数值，当前这三项数值均为 25，让用户直观了解电批在锁付时的关键运行参数。  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2.下方以柱状图和折线图结合的形式，展示不同阶段（横轴标注 0、2、4、6 等）电批相关数据的变化趋势，帮助用户分析锁付过程中电批性能的动态变化，便于对锁付工艺进行优化和故障排查。  
-  
+
+![日志](docs_images/Log.PNG)
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5．日志  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;日志功能可记录系统关键操作与故障信息，助力操作追溯、故障排查；同时能实时监控 I/O 信号、设备状态，及时反馈设备运行异常并报警，保障工站稳定运行。  
 
