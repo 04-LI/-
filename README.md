@@ -94,7 +94,7 @@
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1.示电批的扭力（单位 Kgf）、转速（单位 r/min）、全速（单位 r/min）数值，当前这三项数值均为 25，让用户直观了解电批在锁付时的关键运行参数。  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2.下方以柱状图和折线图结合的形式，展示不同阶段（横轴标注 0、2、4、6 等）电批相关数据的变化趋势，帮助用户分析锁付过程中电批性能的动态变化，便于对锁付工艺进行优化和故障排查。  
 
-![日志](docs_images/Log.PNG)
+![日志](docs_images/Log.PNG)  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5．日志  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;日志功能可记录系统关键操作与故障信息，助力操作追溯、故障排查；同时能实时监控 I/O 信号、设备状态，及时反馈设备运行异常并报警，保障工站稳定运行。  
 
@@ -116,17 +116,15 @@
 
 
 #### （四）控制模块
-![控制面板](docs_images/Control_Panel.PNG)  
-![锁螺丝点](docs_images/Screw_fastening_point.PNG)  
-![点位编辑](docs_images/Point_Editing.PNG)  
-![I/O控制](docs_images/IO_Control.PNG)  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1.控制面板  
+![控制面板](docs_images/Control_Panel.PNG)  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;a.参数配置：  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;设置X/Y/Z三轴运行速度、锁螺丝速度、取螺丝升降速度，匹配不同螺丝型号与工件需求，平衡设备精度与生产效率。  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;b.状态监控：  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;实时显示生产周期、已锁螺丝数、总产量、不良数，同时提供保养螺丝数与保养倒计时提醒，辅助操作人员跟踪生产进度、及时排查故障与安排设备维护，另有 “生产清零” 按钮，支持批次切换时重置统计数据。  
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2.锁螺丝点  
+![锁螺丝点](docs_images/Screw_fastening_point.PNG)  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;a.界面布局与功能分区：  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;左侧为 “点位信息与任务配置区”，右侧为 “配方管理与控制操作区”，逻辑上形成 “点位定义→任务分配→参数保存→设备执行” 的完整工作流。  
 
@@ -152,6 +150,7 @@
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;隐藏功能区：包含 “运行至 XY/XYZ”“该点单独运行” 等按钮，用于手动控制设备移动到指定点位或单独执行某个点位的锁付任务，排查点位精度问题时常用  
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3.点位编辑  
+![点位编辑](docs_images/Point_Editing.PNG)  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;a.界面布局结构  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;左侧区域：主要用于图形预览和交互操作  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;右侧区域：用于数据表格展示和操作按钮  
@@ -170,6 +169,7 @@
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;配方下拉框：用于选择不同点位的配置方案  
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4.I/O控制  
+![I/O控制](docs_images/IO_Control.PNG)  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;a.输入（X系列）  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;操作类输入：  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;双启动 1（X1）、双启动 2（X2）：用于启动设备的双重确认操作，保障启动安全。  
