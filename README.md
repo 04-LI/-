@@ -55,10 +55,9 @@
 ![拧紧详情](docs_images/Tighten_details.PNG)  
   
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1．功能按钮  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;急停：红色按钮，用于在紧急情况下立即停止锁付工站的所有运行操作，保障设备和人员安全。  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;暂停：黄色按钮，用于暂时停止当前的锁付工作流程，可在需要时恢复继续运行。  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;工位1启动：绿色按钮，点击后启动工位 1 的锁付工作流程，使工位 1 开始执行锁付任务。  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;补打条码：蓝色按钮，用于在需要时补充打印相关条码，可能与产品的条码标识管理有关。  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;急停：用于在紧急情况下立即停止锁付工站的所有运行操作，保障设备和人员安全。  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;工位1启动：点击后启动工位 1 的工作流程。  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;补打条码：用于在需要时补充打印条码。  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;首页：界面底部左侧蓝色按钮，点击后回到系统的首页界面，展示整体数据和操作入口。  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;数据：界面底部按钮，点击后可进入数据相关页面。  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;设置：界面底部按钮，点击后进入设置页面。  
