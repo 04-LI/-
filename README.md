@@ -1,9 +1,5 @@
-# ScrewFullStation
-
-# 比较完善的拧紧工站
-
-# 锁付系统软件说明书
-# 目录  
+# 拧紧工站说明书
+## 目录  
 ### 一、系统概述  
 &nbsp;&nbsp;&nbsp;&nbsp;（一）系统功能简介  
 ### 二、系统登录  
@@ -28,7 +24,7 @@
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2.锁螺丝点  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3.点位编辑  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4.I/O控制  
-### 四、常见问题与解决方法  
+ 
 
 
 
@@ -59,10 +55,9 @@
 ![拧紧详情](docs_images/Tighten_details.PNG)  
   
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1．功能按钮  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;急停：红色按钮，用于在紧急情况下立即停止锁付工站的所有运行操作，保障设备和人员安全。  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;暂停：黄色按钮，用于暂时停止当前的锁付工作流程，可在需要时恢复继续运行。  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;工位1启动：绿色按钮，点击后启动工位 1 的锁付工作流程，使工位 1 开始执行锁付任务。  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;补打条码：蓝色按钮，用于在需要时补充打印相关条码，可能与产品的条码标识管理有关。  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;急停：用于在紧急情况下立即停止锁付工站的所有运行操作，保障设备和人员安全。  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;工位1启动：点击后启动工位 1 的工作流程。  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;补打条码：用于在需要时补充打印条码。  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;首页：界面底部左侧蓝色按钮，点击后回到系统的首页界面，展示整体数据和操作入口。  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;数据：界面底部按钮，点击后可进入数据相关页面。  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;设置：界面底部按钮，点击后进入设置页面。  
@@ -78,23 +73,22 @@
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3．步骤显示  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;显示当前步骤：信息展示类的标题或区域标识，用于提示用户当前界面呈现的是锁付工站 2 在运行过程中的步骤相关信息。  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;序号：表格列之一，用于对每一条步骤记录进行编号，方便用户对记录进行有序查看和管理，快速定位特定的步骤记录。  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;条码：表格列之一，用于显示与锁付步骤相关的产品条码信息，通过条码可追溯对应产品的相关生产数据和信息，便于产品的管理与质量追溯。  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;步骤显示：表格列之一，展示锁付工站 2 当前或历史的步骤内容，让用户清楚了解每一步的操作或运行情况。  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;创建时间：表格列之一，记录每条步骤记录的创建时间，有助于用户了解步骤发生的时间先后顺序，对生产流程的时间线进行梳理。  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;结果：表格列之一，显示锁付步骤执行后的结果，如成功、失败、合格、不合格等，帮助用户判断每一步骤的执行效果。  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;测试项：表格列之一，展示与步骤相关的测试项目内容，用于说明该步骤涉及的测试方面。  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;值：表格列之一，显示测试项对应的数值等信息，为用户提供具体的测试数据参考。  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;序号：用于对每一条步骤记录进行编号，方便用户对记录进行有序查看和管理，快速定位特定的步骤记录。  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;条码：用于显示与锁付步骤相关的产品条码信息，通过条码可追溯对应产品的相关生产数据和信息，便于产品的管理与质量追溯。  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;步骤显示：展示锁付工站 2 当前或历史的步骤内容，让用户清楚了解每一步的操作或运行情况。  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;创建时间：记录每条步骤记录的创建时间，有助于用户了解步骤发生的时间先后顺序，对生产流程的时间线进行梳理。  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;结果：显示锁付步骤执行后的结果，如成功、失败、合格、不合格等，帮助用户判断每一步骤的执行效果。  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;测试项：展示与步骤相关的测试项目内容，用于说明该步骤涉及的测试方面。  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;值：显示测试项对应的数值等信息，为用户提供具体的测试数据参考。  
   
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4．步骤显示/拧紧详细  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;步骤显示/拧紧详细切换：  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;通过 “步骤显示” 和 “拧紧详细” 标签，可在展示锁付步骤整体情况与查看拧紧过程详细数据之间进行切换，当前处于 “拧紧详细” 状态，聚焦于电批的具体数据展示。  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;步骤显示：系统将显示所有步骤引导您逐步完成；当前步骤会高亮为绿色，若验证失败则该步骤将提示红色。  
   
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;电批数据展示：  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;拧紧详细电批数据展示：  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1.示电批的扭力（单位 Kgf）、转速（单位 r/min）、全速（单位 r/min）数值，当前这三项数值均为 25，让用户直观了解电批在锁付时的关键运行参数。  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2.下方以柱状图和折线图结合的形式，展示不同阶段（横轴标注 0、2、4、6 等）电批相关数据的变化趋势，帮助用户分析锁付过程中电批性能的动态变化，便于对锁付工艺进行优化和故障排查。  
 
-![日志](docs_images/Log.PNG)
+![日志](docs_images/Log.PNG)  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5．日志  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;日志功能可记录系统关键操作与故障信息，助力操作追溯、故障排查；同时能实时监控 I/O 信号、设备状态，及时反馈设备运行异常并报警，保障工站稳定运行。  
 
@@ -116,17 +110,15 @@
 
 
 #### （四）控制模块
-![控制面板](docs_images/Control_Panel.PNG)  
-![锁螺丝点](docs_images/Screw_fastening_point.PNG)  
-![点位编辑](docs_images/Point_Editing.PNG)  
-![I/O控制](docs_images/IO_Control.PNG)  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1.控制面板  
+![控制面板](docs_images/Control_Panel.PNG)  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;a.参数配置：  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;设置X/Y/Z三轴运行速度、锁螺丝速度、取螺丝升降速度，匹配不同螺丝型号与工件需求，平衡设备精度与生产效率。  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;b.状态监控：  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;实时显示生产周期、已锁螺丝数、总产量、不良数，同时提供保养螺丝数与保养倒计时提醒，辅助操作人员跟踪生产进度、及时排查故障与安排设备维护，另有 “生产清零” 按钮，支持批次切换时重置统计数据。  
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2.锁螺丝点  
+![锁螺丝点](docs_images/Screw_fastening_point.PNG)  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;a.界面布局与功能分区：  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;左侧为 “点位信息与任务配置区”，右侧为 “配方管理与控制操作区”，逻辑上形成 “点位定义→任务分配→参数保存→设备执行” 的完整工作流。  
 
@@ -152,6 +144,7 @@
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;隐藏功能区：包含 “运行至 XY/XYZ”“该点单独运行” 等按钮，用于手动控制设备移动到指定点位或单独执行某个点位的锁付任务，排查点位精度问题时常用  
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3.点位编辑  
+![点位编辑](docs_images/Point_Editing.PNG)  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;a.界面布局结构  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;左侧区域：主要用于图形预览和交互操作  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;右侧区域：用于数据表格展示和操作按钮  
@@ -170,6 +163,7 @@
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;配方下拉框：用于选择不同点位的配置方案  
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4.I/O控制  
+![I/O控制](docs_images/IO_Control.PNG)  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;a.输入（X系列）  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;操作类输入：  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;双启动 1（X1）、双启动 2（X2）：用于启动设备的双重确认操作，保障启动安全。  
@@ -202,7 +196,6 @@
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;预留输出：  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;预留 3（Y15）、预留 4（Y16）、预留 5（Y17）：为可能的扩展功能预留输出接口。  
 
-## 四、常见问题与解决方法 
 
 
 
