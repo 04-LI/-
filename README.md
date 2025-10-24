@@ -73,19 +73,18 @@
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3．步骤显示  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;显示当前步骤：信息展示类的标题或区域标识，用于提示用户当前界面呈现的是锁付工站 2 在运行过程中的步骤相关信息。  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;序号：表格列之一，用于对每一条步骤记录进行编号，方便用户对记录进行有序查看和管理，快速定位特定的步骤记录。  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;条码：表格列之一，用于显示与锁付步骤相关的产品条码信息，通过条码可追溯对应产品的相关生产数据和信息，便于产品的管理与质量追溯。  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;步骤显示：表格列之一，展示锁付工站 2 当前或历史的步骤内容，让用户清楚了解每一步的操作或运行情况。  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;创建时间：表格列之一，记录每条步骤记录的创建时间，有助于用户了解步骤发生的时间先后顺序，对生产流程的时间线进行梳理。  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;结果：表格列之一，显示锁付步骤执行后的结果，如成功、失败、合格、不合格等，帮助用户判断每一步骤的执行效果。  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;测试项：表格列之一，展示与步骤相关的测试项目内容，用于说明该步骤涉及的测试方面。  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;值：表格列之一，显示测试项对应的数值等信息，为用户提供具体的测试数据参考。  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;序号：用于对每一条步骤记录进行编号，方便用户对记录进行有序查看和管理，快速定位特定的步骤记录。  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;条码：用于显示与锁付步骤相关的产品条码信息，通过条码可追溯对应产品的相关生产数据和信息，便于产品的管理与质量追溯。  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;步骤显示：展示锁付工站 2 当前或历史的步骤内容，让用户清楚了解每一步的操作或运行情况。  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;创建时间：记录每条步骤记录的创建时间，有助于用户了解步骤发生的时间先后顺序，对生产流程的时间线进行梳理。  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;结果：显示锁付步骤执行后的结果，如成功、失败、合格、不合格等，帮助用户判断每一步骤的执行效果。  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;测试项：展示与步骤相关的测试项目内容，用于说明该步骤涉及的测试方面。  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;值：显示测试项对应的数值等信息，为用户提供具体的测试数据参考。  
   
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4．步骤显示/拧紧详细  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;步骤显示/拧紧详细切换：  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;通过 “步骤显示” 和 “拧紧详细” 标签，可在展示锁付步骤整体情况与查看拧紧过程详细数据之间进行切换，当前处于 “拧紧详细” 状态，聚焦于电批的具体数据展示。  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;步骤显示：系统将显示所有步骤引导您逐步完成；当前步骤会高亮为绿色，若验证失败则该步骤将提示红色。  
   
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;电批数据展示：  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;拧紧详细电批数据展示：  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1.示电批的扭力（单位 Kgf）、转速（单位 r/min）、全速（单位 r/min）数值，当前这三项数值均为 25，让用户直观了解电批在锁付时的关键运行参数。  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2.下方以柱状图和折线图结合的形式，展示不同阶段（横轴标注 0、2、4、6 等）电批相关数据的变化趋势，帮助用户分析锁付过程中电批性能的动态变化，便于对锁付工艺进行优化和故障排查。  
 
